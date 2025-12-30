@@ -45,7 +45,6 @@ router.get("/", async (req, res) => {
     res.status(500).json({ error: "Failed to fetch events" });
   }
 });
-
 // ---------------- UPDATE EVENT ----------------
 router.put("/:id", async (req, res) => {
   try {
