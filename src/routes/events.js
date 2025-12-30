@@ -100,7 +100,7 @@ router.put("/:id", async (req, res) => {
         ticket_price,
         total_slots,
         available_slots,
-        flyer || currentEvent.rows[0].flyer, // keep existing flyer if not updated
+        flyer || currentEvent.rows[0].flyer, // keep existing flyer if not update
         req.params.id
       ]
     );
