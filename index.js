@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 import authRoutes from "./src/routes/auth.js";
 import eventsRoutes from "./src/routes/events.js";
 import bookingRoutes from "./src/routes/booking.js";
-import { pool } from "./src/db.js";  // <-- VERY IMPORTANT
+import { pool } from "./src/db.js";  
 
 
 dotenv.config();
