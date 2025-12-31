@@ -11,7 +11,7 @@ app.use(express.json());
 // Routes
 app.use("/api/events", eventRoutes);
 
-// ✅ SAFE PORT FIX
+// SAFE PORT FIX
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
