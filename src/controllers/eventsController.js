@@ -1,4 +1,4 @@
-import db from "../db.js"; // your database connection
+import db from "../db.js";
 
 export const createEvent = async (req, res) => {
   try {
